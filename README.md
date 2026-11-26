@@ -14,7 +14,7 @@ Focused on systems telemetry, adaptive schedulers, and local-first networking to
     <td colspan="2" valign="top">
       <a href="https://github.com/NikhByte/CogniOS-test"><b>CogniOS</b></a> · <code>Python</code> <code>PyTorch</code> <code>SQLite WAL</code>
       <br><br>
-      System telemetry and autonomous workload optimization platform. Features thread-safe SQLite WAL logging, unsupervised Isolation Forest anomaly detection, a PyTorch CNN workload classifier, and dynamic process-nice modifications with sandbox fallbacks. Includes an interactive Streamlit dashboard and queue-wait simulators.
+CogniOS is an AI-assisted Linux OS observability and adaptive workload optimization platform. Operating strictly in user space, it collects real-time telemetry, detects slowdown anomalies, and uses semi-supervised machine learning (KMeans and XGBoost) to classify workloads, dynamically tuning process priorities, CPU affinity, and I/O scheduling while providing natural language LLM explanations.
     </td>
   </tr>
   <tr>
